@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+        <title>Juragan Material Test</title>
+        <link href="/public/styles/jframe.css" rel="stylesheet"></link>
+        <link href="/public/styles/index.css" rel="stylesheet"></link>
+    </head>
+    <body>
+        <div class="container">
+            <div class="title">FORM INPUT</div>
+            <div class="wrapper">
+                <div class="col-50">
+                    <div class="form-input">
+                        <input type="text" id="input-name" placeholder="Input Only" class="input input-danger input-100" />
+                    </div>
+                </div>
+
+                <div class="col-50">
+                    <textarea disabled class="input pre-code">&lt;div class=&quot;form-input&quot;&gt;
+                        &lt;input type=&quot;text&quot; id=&quot;input-name&quot; placeholder=&quot;Input Only&quot; class=&quot;input input-danger input-100&quot; /&gt;
+                    &lt;/div&gt;</textarea>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="col-50">
+                    <div class="form-input">
+                        <input type="text" id="input-name" placeholder="sadas" class="input input-danger input-100" />
+                        <span class="input-alert">This is input with append</span>
+                    </div>
+                </div>
+                <div class="col-50">
+                    <textarea disabled class="input pre-code">
+                        &lt;div class=&quot;form-input&quot;&gt;
+                        &lt;input type=&quot;text&quot; id=&quot;input-name&quot; placeholder=&quot;sadas&quot; class=&quot;input input-danger input-100&quot; /&gt;
+                        &lt;span class=&quot;input-alert&quot;&gt;This is input with append&lt;/span&gt;
+                    &lt;/div&gt;
+                    </textarea>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="col-50">
+                    <div class="form-input">
+                        <label for="input-name">Input + AddOn Prepend (Label)</label>
+                        <input type="text" id="input-name" placeholder="sadas" class="input input-danger input-100" />
+                        <span class="input-alert">Email has been registered already</span>
+                    </div>
+                </div>
+                <div class="col-50">
+                    <textarea disabled class="input pre-code">
+                        &lt;div class=&quot;form-input&quot;&gt;
+                        &lt;label for=&quot;input-name&quot;&gt;Input + AddOn Prepend (Label)&lt;/label&gt;
+                        &lt;input type=&quot;text&quot; id=&quot;input-name&quot; placeholder=&quot;sadas&quot; class=&quot;input input-danger input-100&quot; /&gt;
+                        &lt;span class=&quot;input-alert&quot;&gt;Email has been registered already&lt;/span&gt;
+                    &lt;/div&gt;
+                    </textarea>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="col-50">
+                    <div class="form-input">
+                        <label for="input-name">Input + Append</label>
+                        <div class="input-group">
+                            <input type="text" id="input-name" placeholder="sadas" class="input input-info input-100" />
+                            <button class="input-button">Browse...</button>
+                        </div>
+                        <span class="input-alert">Email has been registered already</span>
+                    </div>
+                </div>
+                <div class="col-50">
+                    <textarea disabled class="input pre-code">&lt;div class=&quot;form-input&quot;&gt;
+                        &lt;label for=&quot;input-name&quot;&gt;Input + Append&lt;/label&gt;
+                        &lt;div class=&quot;input-group&quot;&gt;
+                            &lt;input type=&quot;text&quot; id=&quot;input-name&quot; placeholder=&quot;sadas&quot; class=&quot;input input-info input-100&quot; /&gt;
+                            &lt;button class=&quot;input-button&quot;&gt;Browse...&lt;/button&gt;
+                        &lt;/div&gt;
+                        &lt;span class=&quot;input-alert&quot;&gt;Email has been registered already&lt;/span&gt;
+                    &lt;/div&gt;
+                    </textarea>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="col-50">
+                    <div class="form-input">
+                        <label for="input-name">Input + Prepend</label>
+                        <div class="input-group">
+                            <button class="input-button">Name</button>
+                            <input type="text" id="input-name" placeholder="sadas" class="input input-success input-100" />
+                        </div>
+                        <span class="input-alert">Email has been registered already</span>
+                    </div>
+                </div>
+                <div class="col-50">
+                    <textarea disabled class="input pre-code">
+                        &lt;div class=&quot;form-input&quot;&gt;
+                        &lt;label for=&quot;input-name&quot;&gt;Input + Prepend&lt;/label&gt;
+                        &lt;div class=&quot;input-group&quot;&gt;
+                            &lt;button class=&quot;input-button&quot;&gt;Name&lt;/button&gt;
+                            &lt;input type=&quot;text&quot; id=&quot;input-name&quot; placeholder=&quot;sadas&quot; class=&quot;input input-success input-100&quot; /&gt;
+                        &lt;/div&gt;
+                        &lt;span class=&quot;input-alert&quot;&gt;Email has been registered already&lt;/span&gt;
+                    &lt;/div&gt;
+                    </textarea>
+                </div>
+            </div>
+
+            <div class="title">SELECT INPUT</div>
+            <div class="wrapper">
+                <div class="col-50">
+                    <div class="form-input">
+                        <label for="input-name">Regular select box</label>
+                        <select id="input-name" class="input  input-100">
+                            <option value="">Select Option</option>
+                            <option value="a">Option A</option>
+                            <option value="b">Option B</option>
+                            <option value="c">Option C</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-50">
+                    <textarea disabled class="input pre-code">
+                        &lt;div class=&quot;form-input&quot;&gt;
+                        &lt;label for=&quot;input-name&quot;&gt;Regular select box&lt;/label&gt;
+                        &lt;select id=&quot;input-name&quot; class=&quot;input  input-100&quot;&gt;
+                                &lt;option value=&quot;&quot;&gt;Select Option&lt;/option&gt;
+                                &lt;option value=&quot;a&quot;&gt;Option A&lt;/option&gt;
+                                &lt;option value=&quot;b&quot;&gt;Option B&lt;/option&gt;
+                                &lt;option value=&quot;c&quot;&gt;Option C&lt;/option&gt;
+                            &lt;/select&gt;
+                        &lt;/div&gt;
+                    </textarea>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="col-50">
+                    <div class="form-input">
+                        <label for="input-name">Select box with single value</label>
+                        <input type="text" class="input input-select input-100" data-options=".option-beta" />
+                        
+                        <div class="input-options option-beta">
+                            <div class="option-item">Option A</div>
+                            <div class="option-item">Option B</div>
+                            <div class="option-item">Option C</div>
+                            <div class="option-item">Option D</div>
+                            <div class="option-item">Option E</div>
+                            <div class="option-item">Option F</div>
+                            <div class="option-item">Option G</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-50">
+                    <textarea disabled class="input pre-code">
+                        &lt;div class=&quot;form-input&quot;&gt;
+                            &lt;label for=&quot;input-name&quot;&gt;Select box with single value&lt;/label&gt;
+                            &lt;input type=&quot;text&quot; class=&quot;input input-select input-100&quot; data-options=&quot;.option-beta&quot; /&gt;
+                            
+                            &lt;div class=&quot;input-options option-beta&quot;&gt;
+                                &lt;div class=&quot;option-item&quot;&gt;Option A&lt;/div&gt;
+                                &lt;div class=&quot;option-item&quot;&gt;Option B&lt;/div&gt;
+                                &lt;div class=&quot;option-item&quot;&gt;Option C&lt;/div&gt;
+                                &lt;div class=&quot;option-item&quot;&gt;Option D&lt;/div&gt;
+                                &lt;div class=&quot;option-item&quot;&gt;Option E&lt;/div&gt;
+                                &lt;div class=&quot;option-item&quot;&gt;Option F&lt;/div&gt;
+                                &lt;div class=&quot;option-item&quot;&gt;Option G&lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    </textarea>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="col-50">
+                    <div class="form-input">
+                        <label for="input-name">Select box with multiple value</label>
+                        <div class="input-group multi-value alpha-group">
+                            <input type="text" class="input input-select input-100 multi-value" data-options=".option-alpha" data-group=".alpha-group" />
+                        </div>
+                        <div class="input-options option-alpha">
+                            <div class="option-item">Option A</div>
+                            <div class="option-item">Option B</div>
+                            <div class="option-item">Option C</div>
+                            <div class="option-item">Option D</div>
+                            <div class="option-item">Option E</div>
+                            <div class="option-item">Option F</div>
+                            <div class="option-item">Option G</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-50">
+                    <textarea disabled class="input pre-code">
+                        &lt;div class=&quot;form-input&quot;&gt;
+                            &lt;label for=&quot;input-name&quot;&gt;Select box with multiple value&lt;/label&gt;
+                            &lt;div class=&quot;input-group multi-value alpha-group&quot;&gt;
+                                &lt;input type=&quot;text&quot; class=&quot;input input-select input-100 multi-value&quot; data-options=&quot;.option-alpha&quot; data-group=&quot;.alpha-group&quot; /&gt;
+                            &lt;/div&gt;
+                            &lt;div class=&quot;input-options option-alpha&quot;&gt;
+                                &lt;div class=&quot;option-item&quot;&gt;Option A&lt;/div&gt;
+                                &lt;div class=&quot;option-item&quot;&gt;Option B&lt;/div&gt;
+                                &lt;div class=&quot;option-item&quot;&gt;Option C&lt;/div&gt;
+                                &lt;div class=&quot;option-item&quot;&gt;Option D&lt;/div&gt;
+                                &lt;div class=&quot;option-item&quot;&gt;Option E&lt;/div&gt;
+                                &lt;div class=&quot;option-item&quot;&gt;Option F&lt;/div&gt;
+                                &lt;div class=&quot;option-item&quot;&gt;Option G&lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    </textarea>
+                </div>
+            </div>
+
+            <div class="title">MODAL</div>
+            <div class="wrapper">
+                <div class="col-50">
+                    <div class="form-input">
+                        <button class="button success modal-open" data-modal=".modal-success">Modal Success</button>
+                    </div>
+                </div>
+                <div class="col-50">
+                    <textarea disabled class="input pre-code">
+                        <!-- BUTTON -->
+                        &lt;div class=&quot;form-input&quot;&gt;
+                        &lt;button class=&quot;button success modal-open&quot; data-modal=&quot;.modal-success&quot;&gt;Modal Success&lt;/button&gt;
+                    &lt;/div&gt;
+
+                        <!-- MODAL -->
+                        &lt;div class=&quot;modal success modal-success&quot;&gt;
+                            &lt;div class=&quot;modal-wrapper&quot;&gt;
+                                &lt;div class=&quot;modal-header&quot;&gt;
+                                    Dialog Title
+                                &lt;/div&gt;
+                                &lt;div class=&quot;modal-body&quot;&gt;
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+                                    &lt;div class=&quot;modal-link&quot;&gt;
+                                        &lt;a href=&quot;https://juraganmaterial.id/reset/fghjk7827hrhrjj3&quot;&gt;https://juraganmaterial.id/reset/fghjk7827hrhrjj3&lt;/a&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                                &lt;div class=&quot;modal-footer&quot;&gt;
+
+                                    &lt;button class=&quot;button modal-close&quot;&gt;Cancel&lt;/button&gt;
+                                    &lt;button class=&quot;button success&quot;&gt;Okay&lt;/button&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    </textarea>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="col-50">
+                    <div class="form-input">
+                        <button class="button warning modal-open" data-modal=".modal-warning">Modal Alert</button>
+                    </div>
+                </div>
+                <div class="col-50">
+                     <!-- BUTTON -->
+                    <textarea disabled class="input pre-code">
+                        &lt;div class=&quot;form-input&quot;&gt;
+                        &lt;button class=&quot;button warning modal-open&quot; data-modal=&quot;.modal-warning&quot;&gt;Modal Alert&lt;/button&gt;
+                    &lt;/div&gt;
+
+                     <!-- MODAL -->
+                     &lt;div class=&quot;modal warning modal-warning&quot;&gt;
+                        &lt;div class=&quot;modal-wrapper&quot;&gt;
+                            &lt;div class=&quot;modal-header&quot;&gt;
+                                Dialog Title
+                            &lt;/div&gt;
+                            &lt;div class=&quot;modal-body&quot;&gt;
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+                                &lt;div class=&quot;modal-link&quot;&gt;
+                                    &lt;a href=&quot;https://juraganmaterial.id/reset/fghjk7827hrhrjj3&quot;&gt;https://juraganmaterial.id/reset/fghjk7827hrhrjj3&lt;/a&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class=&quot;modal-footer&quot;&gt;
+
+                                &lt;button class=&quot;button modal-close&quot;&gt;Cancel&lt;/button&gt;
+                                &lt;button class=&quot;button warning&quot;&gt;Okay&lt;/button&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    </textarea>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="col-50">
+                    <div class="form-input">
+                        <button class="button danger modal-open" data-modal=".modal-danger" >Modal Danger</button>
+                    </div>
+                </div>
+                <div class="col-50">
+                    <textarea disabled class="input pre-code">
+                         <!-- BUTTON -->
+                        &lt;div class=&quot;form-input&quot;&gt;
+                        &lt;button class=&quot;button danger modal-open&quot; data-modal=&quot;.modal-danger&quot; &gt;Modal Danger&lt;/button&gt;
+                        &lt;/div&gt;
+
+                         <!-- MODAL -->
+                         &lt;div class=&quot;modal danger modal-danger&quot;&gt;
+                            &lt;div class=&quot;modal-wrapper&quot;&gt;
+                                &lt;div class=&quot;modal-header&quot;&gt;
+                                    Dialog Title
+                                &lt;/div&gt;
+                                &lt;div class=&quot;modal-body&quot;&gt;
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                
+                                    &lt;div class=&quot;modal-link&quot;&gt;
+                                        &lt;a href=&quot;https://juraganmaterial.id/reset/fghjk7827hrhrjj3&quot;&gt;https://juraganmaterial.id/reset/fghjk7827hrhrjj3&lt;/a&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                                &lt;div class=&quot;modal-footer&quot;&gt;
+                                    &lt;button class=&quot;button modal-close&quot;&gt;Cancel&lt;/button&gt;
+                                    &lt;button class=&quot;button danger&quot;&gt;Okay&lt;/button&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    </textarea>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="col-50">
+                    <div class="form-input">
+                        <button class="button info modal-open" data-modal=".modal-info">Modal Info</button>
+                    </div>
+                </div>
+                <div class="col-50">
+                    <textarea disabled class="input pre-code">
+                         <!-- BUTTON -->
+                        &lt;div class=&quot;form-input&quot;&gt;
+                        &lt;button class=&quot;button info modal-open&quot; data-modal=&quot;.modal-info&quot;&gt;Modal Info&lt;/button&gt;
+                    &lt;/div&gt;
+                        
+                        <!-- MODAL -->
+                        &lt;div class=&quot;modal info modal-info&quot;&gt;
+                            &lt;div class=&quot;modal-wrapper&quot;&gt;
+                                &lt;div class=&quot;modal-header&quot;&gt;
+                                    Dialog Title
+                                &lt;/div&gt;
+                                &lt;div class=&quot;modal-body&quot;&gt;
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                
+                                    &lt;div class=&quot;modal-link&quot;&gt;
+                                        &lt;a href=&quot;https://juraganmaterial.id/reset/fghjk7827hrhrjj3&quot;&gt;https://juraganmaterial.id/reset/fghjk7827hrhrjj3&lt;/a&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                                &lt;div class=&quot;modal-footer&quot;&gt;
+                
+                                    &lt;button class=&quot;button modal-close&quot;&gt;Cancel&lt;/button&gt;
+                                    &lt;button class=&quot;button info&quot;&gt;Okay&lt;/button&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    </textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal success modal-success">
+            <div class="modal-wrapper">
+                <div class="modal-header">
+                    Dialog Title
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+                    <div class="modal-link">
+                        <a href="https://juraganmaterial.id/reset/fghjk7827hrhrjj3">https://juraganmaterial.id/reset/fghjk7827hrhrjj3</a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+
+                    <button class="button modal-close">Cancel</button>
+                    <button class="button success">Okay</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal warning modal-warning">
+            <div class="modal-wrapper">
+                <div class="modal-header">
+                    Dialog Title
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+                    <div class="modal-link">
+                        <a href="https://juraganmaterial.id/reset/fghjk7827hrhrjj3">https://juraganmaterial.id/reset/fghjk7827hrhrjj3</a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+
+                    <button class="button modal-close">Cancel</button>
+                    <button class="button warning">Okay</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal info modal-info">
+            <div class="modal-wrapper">
+                <div class="modal-header">
+                    Dialog Title
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+                    <div class="modal-link">
+                        <a href="https://juraganmaterial.id/reset/fghjk7827hrhrjj3">https://juraganmaterial.id/reset/fghjk7827hrhrjj3</a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+
+                    <button class="button modal-close">Cancel</button>
+                    <button class="button info">Okay</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal danger modal-danger">
+            <div class="modal-wrapper">
+                <div class="modal-header">
+                    Dialog Title
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+                    <div class="modal-link">
+                        <a href="https://juraganmaterial.id/reset/fghjk7827hrhrjj3">https://juraganmaterial.id/reset/fghjk7827hrhrjj3</a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="button modal-close">Cancel</button>
+                    <button class="button danger">Okay</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- scripts -->
+        <script src="/public/js/jframe.js"></script>
+    </body>
+</html>

@@ -1,0 +1,9 @@
+{
+    "name": "juragan-test",
+    "version": "0.0.1",
+    "description": "juragan-ui",
+    "scripts": {
+      "start": "node index.js"
+    }
+  }
+  
